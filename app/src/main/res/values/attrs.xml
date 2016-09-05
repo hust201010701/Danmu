@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DanmuView">
+        <attr name="orientation" format="string"></attr>
+        <attr name="antidirection" format="boolean"></attr>
+    </declare-styleable>
+
+
+</resources>

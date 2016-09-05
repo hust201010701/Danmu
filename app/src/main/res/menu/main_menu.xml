@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_horizontal"
+        android:title="水平方向"
+        android:orderInCategory="80"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_vertical"
+        android:title="竖直方向"
+        android:orderInCategory="90"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_normaldirection"
+        android:title="默认方向"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_antinormaldirention"
+        android:title="反方向"
+        android:orderInCategory="110"
+        app:showAsAction="never" />
+
+</menu>
