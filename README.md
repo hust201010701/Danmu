@@ -1,6 +1,10 @@
-# Danmu
-#Android 自定义Danmu
-##1.自定义弹幕的Model层
+注：本人重制了多功能高自由度的弹幕控件，见：[XDanmuku](https://github.com/hust201010701/XDanmuku)
+
+
+-----------------------------分隔符------------------------------------
+
+# Android 自定义Danmu
+## 1.自定义弹幕的Model层
 本着MVC的框架，弹幕分为弹幕的Model层和View层，Activity中负责Controller层连接二者。
 自定义一个DanmuText类 
 
@@ -58,7 +62,7 @@
 DanmuRollRunnable 中是一个死循环，每隔10ms判断一次，orientation 代表
 弹幕的滚动方向是水平的还是竖直的，0代表水平，1代表竖直。
 
-##2.自定义弹幕View层
+## 2.自定义弹幕View层
 自定义一个DanmuView类，DanmuView是继承自View，其中主要的变量是
 
     private String mOrientation = "horizontal";
